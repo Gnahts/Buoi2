@@ -1,0 +1,75 @@
+#NoiDung {/* tương đương với main */
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+#DauTrang {/* tương đương với header */
+    width: 960px;
+    height: 192px;
+    background: url(../images/banner.jpg);
+}
+
+#GiuaTrang {/* tương đương với section */
+    width: 960px;
+}
+
+#BenTrai {/* tương đương với asite */
+    width: 220px;
+    float: left;
+
+}
+
+#BenTrai h3{
+    color: white;
+    background: url(../images/h3_bg.gif);
+    height: 34px;
+    padding: 8px 0 0 5px ;
+    box-sizing: border-box;
+    margin-bottom: 0;
+
+}
+
+a:link{
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+a:visited{
+    color: gray;
+}
+
+#BenTrai ul{
+    list-style-image: url(../images/ul.gif) ;
+    padding: 5px 0 5px 24px;
+    border: 1px brown;
+    margin-top: 0;
+
+}
+
+#BenPhai {/* tương đương với article */
+    width: 730px;
+    float: right;
+}
+#BenPhai h3{
+    background: url(../images/content_title_bar.png) no-repeat;
+    height: 34px;
+    padding: 5px 0 0 35px;
+    color: brown;
+}
+
+#BenPhai p{
+    text-align: justify;
+}
+
+#CuoiTrang {/* tương đương với footer */
+    width: 960px;
+    height: 50px;
+    background: url(../images/footer.jpg);
+    clear: both;
+}
